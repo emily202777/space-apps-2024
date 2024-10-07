@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7a569;
+}
+
+.button-container {
+    position: absolute;
+    top: 57.7%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    background-color: #ffffff00;
+    color: #ffffff00;
+    width: 300px;
+    max-width: 90%;
+    aspect-ratio: 423 / 17;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+section.vid {
+    position: sticky;
+    top: 0;
+    height: 100%; /* Make sure video fills the viewport */
+    overflow: hidden;
+}
+
+section.vid video {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+section.vid div.holder {
+    position: sticky;
+    top: 0;
+} 
+
+body {
+    padding-bottom: 0vh; /* Adds vertical space at the bottom */
+}
