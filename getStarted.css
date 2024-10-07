@@ -28,8 +28,7 @@ body, html {
 
 .text-image {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    margin-left: 1000px;
     transform: translate(-50%, -50%);
     max-width: 80%; /* Adjust for text image size */
     height: auto;
